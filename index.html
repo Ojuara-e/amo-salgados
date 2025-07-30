@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amo Salgados – Salgadaria</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Cormorant+Garamond:wght@400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-o6orR5hTz2tFpr5j88r8hI8rXkoD07e+NEHM2wf9qwXfkyLiq1cBEGPvjgWgXnFWZLpyf17hJuL70qZGfCBjJw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="Amo Salgados" class="logo-img">
+      </a>
+      <nav id="navMenu" class="nav-menu">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Quem Somos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <!-- Mobile menu toggle -->
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero" style="background-image: url('assets/images/hero1.jpg');">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title">Salgadinhos congelados com amor</h1>
+      <p class="hero-subtitle">Qualidade e sabor artesanal para o seu negócio</p>
+      <a href="produtos.html" class="btn btn-primary">Conheça nossos produtos</a>
+    </div>
+  </section>
+
+  <!-- Highlights section -->
+  <section class="highlights container">
+    <h2 class="section-title">Por que escolher a Amo Salgados?</h2>
+    <div class="highlight-cards">
+      <div class="highlight-item">
+        <i class="fa-solid fa-utensils highlight-icon"></i>
+        <h3>Sabor e tradição</h3>
+        <p>Receitas exclusivas com um toque de casa e recheios generosos. Garantia de sabor irresistível em cada mordida.</p>
+      </div>
+      <div class="highlight-item">
+        <i class="fa-solid fa-box-open highlight-icon"></i>
+        <h3>Congelados de verdade</h3>
+        <p>Nossos salgados chegam congelados e prontos para fritar, mantendo a textura e o frescor como se fossem feitos na hora.</p>
+      </div>
+      <div class="highlight-item">
+        <i class="fa-solid fa-handshake highlight-icon"></i>
+        <h3>Parceiros B2B</h3>
+        <p>Atendemos revendedores, mercados e empresas de eventos com condições especiais e entrega rápida na região.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product overview section -->
+  <section class="product-overview">
+    <div class="container">
+      <h2 class="section-title">Nossas especialidades</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/images/mini_mix_board.jpg" alt="Cento congelado para fritar" />
+          <h3>Cento congelado para fritar</h3>
+          <p>Ideal para quem busca praticidade e frescor. Forneça salgados sempre quentinhos no seu estabelecimento.</p>
+          <a href="produtos.html#cento-frito" class="btn btn-secondary">Saiba mais</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/coxinha_cut.jpg" alt="Coxinha gourmet" />
+          <h3>Coxinha gourmet</h3>
+          <p>Massa de batata‑doce com duplo recheio de frango com requeijão. Um toque sofisticado para conquistar seu público.</p>
+          <a href="produtos.html#coxinha-gourmet" class="btn btn-secondary">Veja detalhes</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/coxinha_suco_horizontal.jpg" alt="Cento misto frito" />
+          <h3>Cento misto frito</h3>
+          <p>Seleção de sabores clássicos para agradar a todos. Perfeito para eventos, buffets e lanchonetes.</p>
+          <a href="produtos.html#cento-misto" class="btn btn-secondary">Ver opções</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery section -->
+  <section class="gallery-section">
+    <div class="container">
+      <h2 class="section-title">Galeria de sabores</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/images/kibe.jpg" alt="Kibe frito" /></div>
+        <div class="gallery-item"><img src="assets/images/corn_croquete.jpg" alt="Croquete de milho com mussarela" /></div>
+        <div class="gallery-item"><img src="assets/images/coxinha_plate.jpg" alt="Coxinhas na mesa" /></div>
+        <div class="gallery-item"><img src="assets/images/mini_mix_board.jpg" alt="Mix de salgados" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About teaser section -->
+  <section class="about-teaser">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2 class="section-title">Nossa história</h2>
+        <p>A Amo Salgados nasceu da paixão por receitas de família e pela vontade de levar o melhor da culinária caseira para os negócios locais. Ao longo dos anos, construímos uma reputação de confiança e qualidade, atendendo de pequenas lanchonetes a grandes eventos.</p>
+        <a href="sobre.html" class="btn btn-primary">Conheça mais sobre nós</a>
+      </div>
+      <div class="about-image">
+        <img src="assets/images/hero2.jpg" alt="Equipe preparando salgados" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action for B2B partners -->
+  <section class="cta-section">
+    <div class="container cta-container">
+      <h2>Pronto para ser parceiro?</h2>
+      <p>Entre em contato para receber condições especiais para revendedores, mercados e buffets. Nosso time comercial está pronto para atendê‑lo.</p>
+      <a href="contato.html" class="btn btn-secondary">Fale conosco</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <h3>Amo Salgados</h3>
+        <p>Produzindo os melhores salgadinhos congelados da região com dedicação e carinho.</p>
+      </div>
+      <div class="footer-middle">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h4>Contato</h4>
+        <p>WhatsApp: (47) 99684‑1093</p>
+        <p>E‑mail: contato@amosalgados.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/salgadariaamosalgados" target="_blank">@salgadariaamosalgados</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Amo Salgados. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato – Amo Salgados</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Cormorant+Garamond:wght@400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-o6orR5hTz2tFpr5j88r8hI8rXkoD07e+NEHM2wf9qwXfkyLiq1cBEGPvjgWgXnFWZLpyf17hJuL70qZGfCBjJw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="Amo Salgados" class="logo-img">
+      </a>
+      <nav id="navMenu" class="nav-menu">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Quem Somos</a>
+        <a href="contato.html" class="active">Contato</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero internal-hero" style="background-image: url('assets/images/hero1.jpg');">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title">Fale conosco</h1>
+      <p class="hero-subtitle">Estamos prontos para atender sua empresa</p>
+    </div>
+  </section>
+
+  <main class="container contact-page">
+    <section class="contact-info">
+      <h2>Entre em contato</h2>
+      <p>Interessado em revender nossos salgados ou fazer um pedido especial para o seu negócio? Envie uma mensagem ou utilize nossos canais abaixo. Retornaremos em breve.</p>
+      <div class="contact-details">
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>(47) 99684‑1093</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>contato@amosalgados.com</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>(47) 99684‑1093</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form-section">
+      <h2>Solicite um orçamento</h2>
+      <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Mensagem enviada! Em breve entraremos em contato.');">
+        <div class="form-group">
+          <label for="nome">Nome completo*</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+        <div class="form-group">
+          <label for="empresa">Empresa</label>
+          <input type="text" id="empresa" name="empresa" />
+        </div>
+        <div class="form-group">
+          <label for="email">E‑mail*</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone*</label>
+          <input type="tel" id="telefone" name="telefone" required />
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem*</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+      </form>
+    </section>
+
+    <section class="payment-info">
+      <h2>Pagamento seguro</h2>
+      <p>Em parceria com plataformas de cobrança online, como o EBANX, oferecemos soluções de pagamento seguras e práticas para o seu negócio. Entre em contato e saiba como facilitar suas compras com métodos de pagamento digitais.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <h3>Amo Salgados</h3>
+        <p>Produzindo os melhores salgadinhos congelados da região com dedicação e carinho.</p>
+      </div>
+      <div class="footer-middle">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h4>Contato</h4>
+        <p>WhatsApp: (47) 99684‑1093</p>
+        <p>E‑mail: contato@amosalgados.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/salgadariaamosalgados" target="_blank">@salgadariaamosalgados</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Amo Salgados. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
